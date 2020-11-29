@@ -1,0 +1,30 @@
+{
+  "name": "budget_tracker",
+  "version": "1.0.0",
+  "description": "app that tracks your income and expenses",
+  "main": "server.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mongoose": "^5.10.18",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HallRB/Budget_Tracker.git"
+  },
+  "author": "Richard B. Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HallRB/Budget_Tracker/issues"
+  },
+  "homepage": "https://github.com/HallRB/Budget_Tracker#readme"
+}
