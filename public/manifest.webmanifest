@@ -1,20 +1,22 @@
-{   
-    "name":"PWA-Budget-Tracker",
-    "short_name":"PWA-Budget-Tracker",
-    "icons": [
-        {
-          "src": "assets/icons/icon-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
+{
+    "icons": [{
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         },
         {
-          "src": "assets/icons/icon-512x512.png",
-          "sizes": "512x512",
-          "type": "image/png"
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
         }
-      ],
-    "theme_color":"#ffffff",
-    "background_color":"#ffffff",
-    "start_url":"/",
-    "display":"standalone"
+    ],
+    "name": "Budget_Tracker",
+    "short_name": "budget",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "/",
+    "description": "An application that allows you to log your expenses with a budget and view it over time",
+    "background_color": "#01579b",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff"
 }
