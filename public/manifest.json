@@ -10,7 +10,7 @@
             "type": "image/png"
         }
     ],
-    "name": "Budget_Tracker",
+    "name": "Budget_Tracker app",
     "short_name": "budget",
     "orientation": "portrait",
     "display": "standalone",
